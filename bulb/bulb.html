@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+    function light(value)
+      
+    {
+    var pic;
+    if (value==0) 
+    {
+      pic = "off.jpg";
+    }
+    else
+    {
+      pic="on.jpg";
+    }
+      document.getElementById('bulb').src=pic;
+    }
+  </script>
+
+<img id="bulb" src="C:\Users\deepa\Pictures\off.jpg" alt="bulb" width="150" height="200">
+<button onclick="light(1)">on</button>
+<button onclick="light(0)">off</button>
+</body>
+</html>
